@@ -57,7 +57,7 @@ body {
   box-sizing: border-box;
 }
 .wrapper-invoice .invoice .invoice-head .client-info {
-  text-align: left;
+  text-align: left !important;
 }
 .wrapper-invoice .invoice .invoice-head .client-info h2 {
   font-weight: 500;
@@ -70,7 +70,7 @@ body {
   color: gray;
 }
 .wrapper-invoice .invoice .invoice-head .client-data {
-  text-align: right;
+  text-align: right !important;
 }
 .wrapper-invoice .invoice .invoice-head .client-data h2 {
   font-weight: 500;
