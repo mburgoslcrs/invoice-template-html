@@ -110,3 +110,12 @@ header h2 {
     grid-template-columns: auto auto auto auto;
 }
 
+@media print {
+    @page {
+        size: A4;
+        margin: 0px;
+        width: max-content;
+        height: max-content;
+    }
+  }
+
