@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans" , sans-serif;
+}
+
+body {
+    border: 1px dashed black;
+    padding: 0 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+.logo img {
+    width: 20rem;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.title-header {
+    text-align: center;
+}
+
+.fiscal-data {
+    line-height: 35%;
+}
+
+.fiscal-data div p {
+    font-size: 1.3rem;
+}
+
+.data-store {
+    text-align: start;
+    margin-top: 2rem;
+    line-height: 35%;
+}
+
+.column-heading {
+    margin: 0 1rem 1rem 1rem;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.column-heading > span {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+.column-heading .column-heading2 {
+    font-size: 25px;
+    letter-spacing: 0.25rem;
+}
+
+.column-heading span div {
+    margin: 0 20px;
+    letter-spacing: 0.25rem;
+}
+
+.data-items .item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    line-height: 0;
+}
+
+.data-items .item .item-sale-description {
+    text-align: start;
+    grid-area: 2 / 2 / 2 / 5;
+}
+
+.subTotal {
+    text-align: start;
+    margin: 0 1rem 1rem 1rem;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.subTotal .subTotal-detail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subTotal .subTotal-method-payment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal div p {
+    margin: 5px 0;
+}
+
+.method-pay {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.total-product p {
+    text-align: start;
+}
+
+.total-product p span {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tax .tax-header, .tax .tax-plan {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.iva .iva-title, .iva .iva-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.legal {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.legal-detail {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: start;
+}
+
+.legal p {
+    font-size: 1.25rem;
+}
+
+
+.legal-detail p {
+    font-size: 1.25rem;
+}
+
+@media (min-width: 800px) {
+
+    body {
+        max-width: 700px;
+    }
+
+    .fiscal-data div p {
+        font-size: 1.5rem;
+    }
+
+    header h2 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .data-store {
+        text-align: center;
+    }
+
+    .data-store p {
+        font-size: 1.6rem;
+    }
+
+    .column-heading span p {
+        font-size: 1.5rem;
+    }
+
+    .data-items .item p {
+        font-size: 1.4rem;
+    }
+
+    .subTotal .subTotal-detail p {
+        font-size: 1.4rem;
+    }
+
+    .legal p {
+        font-size: 1.4rem;
+    }
+
+    .legal-detail p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1020px) {
+
+    body {
+        max-width: 900px;
+    }
+
+    .fiscal-data div p {
+        font-size: 1.5rem;
+    }
+
+    header h2 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .data-store {
+        text-align: center;
+    }
+
+    .data-store p {
+        font-size: 1.6rem;
+    }
+
+    .column-heading span p {
+        font-size: 1.5rem;
+    }
+
+    .data-items .item p {
+        font-size: 1.4rem;
+    }
+
+    .subTotal .subTotal-detail p {
+        font-size: 1.4rem;
+    }
+
+    .legal p {
+        font-size: 1.5rem;
+    }
+
+    .legal-detail p {
+        font-size: 1.5rem;
+    }
+}
