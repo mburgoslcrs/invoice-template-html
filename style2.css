@@ -114,12 +114,16 @@ header h2 {
     @page {
         size: 80mm 297mm;
         margin: 0px;
-        width: max-content;
-        height: max-content;
+
     } 
 
-    body {
-        margin: 0mm 0mm; /* replace with your margins */
-      }
+    body{
+        border: 0px;
+        padding: 2px;
+        margin: 2px;
+        max-width: 500px;
+        height: 100%;
+        text-align: center;       
+    }
   }
 
